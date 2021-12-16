@@ -51,8 +51,8 @@ class ShapeHelper {
     }
 }
 
-let square = new Square(10);
-let rectangle = new Rectangle(10, 20);
+let square: Shape = new Square(10);
+let rectangle: Shape = new Rectangle(10, 20);
 
 ShapeHelper.printArea(square);      // OUTPUT: 100
 ShapeHelper.printArea(rectangle);   // OUTPUT: 200
