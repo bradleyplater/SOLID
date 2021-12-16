@@ -11,7 +11,7 @@ interface Shape {
 }
 
 class Rectangle implements Shape {
-    constructor(public width: number, public height: number){
+    constructor(private width: number, private height: number){
     }
 
     public getArea(){
@@ -20,7 +20,7 @@ class Rectangle implements Shape {
 }
 
 class Circle implements Shape {
-    constructor(public radius: number){
+    constructor(private radius: number){
     }
 
     public getArea(){
