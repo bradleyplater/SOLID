@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/bradleyplater/SOLID#readme",
   "dependencies": {
+    "@types/axios": "^0.14.0",
     "@types/mysql": "^2.15.19",
+    "axios": "^0.24.0",
     "mysql": "^2.18.1"
   }
 }
